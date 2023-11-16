@@ -1,0 +1,47 @@
+{
+  "name": "react-native-wechat-work-plus-plus",
+  "version": "1.1.0",
+  "description": "react-native 企业微信分享, 支持 iOS + Android",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrychao24/fiesta.git"
+  },
+  "keywords": [
+    "wechat",
+    "wechat-work",
+    "wechat-work-plus",
+    "wechat-work-plus-plus",
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "企业微信",
+    "企微"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.41.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "android": {
+      "sourceDir": "lib/android"
+    }
+  }
+}
