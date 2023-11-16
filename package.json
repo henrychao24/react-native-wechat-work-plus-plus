@@ -1,7 +1,7 @@
 {
   "name": "react-native-wechat-work-plus-plus",
-  "version": "1.1.0",
-  "description": "react-native 企业微信分享, 支持 iOS + Android",
+  "version": "1.2.0",
+  "description": "react-native 企业微信登录分享, 支持 iOS + Android",
   "main": "lib/index.js",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/henrychao24/fiesta.git"
+    "url": "https://github.com/henrychao24/react-native-wechat-work-plus-plus"
   },
   "keywords": [
     "wechat",
