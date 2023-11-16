@@ -71,7 +71,7 @@ import * as RNWeChatWork from 'react-native-wechat-work-plus-plus';
 async () => {
   try {
     console.log('begin.....................');
-    let res = await WeChatWork.registerApp('11', '22', '33');
+    let res = await RNWeChatWork.registerApp('11', '22', '33');
     console.log('success.....................', res);
   } catch (error) {
     console.log('error.....................', error);
@@ -82,7 +82,7 @@ async () => {
 async () => {
   try {
     console.log('begin.....................');
-    let res = await WeChatWork.SSOAuth('test');
+    let res = await RNWeChatWork.SSOAuth('test');
     console.log('success.....................', res);
   } catch (error) {
     console.log('error.....................', error);
